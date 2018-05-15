@@ -59,9 +59,6 @@ end
 class String
   include Alphadecimal::String
 end
-class Fixnum
-  include Alphadecimal::Number
-end
-class Bignum
+class Integer
   include Alphadecimal::Number
 end
